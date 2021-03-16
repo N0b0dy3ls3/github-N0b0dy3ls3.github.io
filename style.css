@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    /*Evvel bepozícionálom középre*/
+}
+
+span {
+    font-size: 20px;
+    font-weight: bold;
+}
+p {
+font-family: 'Merriweather', serif;
+}
+
+li {
+    list-style-type: square;
+}
+
+.onvallas {
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    width: 300px;
+    height: 80px;
+    background-color:grey;
+    color: white;
+}
+
+blockquote::before {
+    content: '”';
+    color:white;
+  }
